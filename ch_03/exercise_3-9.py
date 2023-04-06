@@ -1,4 +1,4 @@
-# Shrinking Guest List
+# Dinner Guests
 guests = ["Spongebob", "Patrick", "Squidward"]
 
 person = guests[2].title()
@@ -53,4 +53,4 @@ print(f"{guests[1]} you're still invited to a Dinner at Dorsia tonight")
 del guests[0]
 del guests[0]
 
-print(guests)
+print(len(guests))
